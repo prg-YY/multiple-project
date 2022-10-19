@@ -38,7 +38,7 @@ const Navbar = () => {
   }
 
   return (
-    <AppBar position="static" color="primary">
+    <AppBar position="sticky" color="inherit" sx={{ borderRadius: "16px" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Face6Icon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
